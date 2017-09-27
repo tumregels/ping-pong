@@ -1,0 +1,49 @@
+#game {
+  background: greenyellow;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#ball {
+  background: grey;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 290px;
+  top: 140px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.paddle {
+  background: green;
+  position: absolute;
+  width: 20px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#paddleA {
+  left: 20px;
+  top: 100px
+}
+
+#paddleB {
+  left: 560px;
+  top: 100px
+}
+
+#menutext{
+  color:dodgerblue;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  font-size: 40px;
+  font-family: lucida;
+}
